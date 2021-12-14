@@ -1,0 +1,70 @@
+body{
+    background-image: url(images/begok.jpeg);
+    background-size: 100%;
+}
+section{ 
+    padding-top: 5rem;
+}
+.navbar-brand {
+    font-family: viga;
+    font-size: 24px;
+  }
+  .navbar-brand,
+    .nav-link {
+      color: white !important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+  
+  /* Utilty */
+  .tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+  }
+.carousel-item img {
+    opacity: 1;
+    padding-top: 50px;
+}
+.tulisan{
+    font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.carousel-item h1, p {
+    color:black;
+}
+#Fitur{
+    margin: top -1rem;
+}
+.gambar{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.datadiri{
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer{
+    margin-top: 100px;
+    padding-top: 10px;
+}
+
+@media (min-width: 768px) { 
+    .navbar-brand{
+        font-size: 32px;
+    }
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+      }
+}
